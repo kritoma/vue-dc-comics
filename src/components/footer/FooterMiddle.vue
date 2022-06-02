@@ -68,6 +68,8 @@ export default {
 <style lang="scss" scoped>
 .footer_middle {
     background-image: url('../../assets/img/footer-bg.jpg');
+    height: 25rem;
+    overflow: hidden;
 
     .flex {
         display: flex;
@@ -78,7 +80,7 @@ export default {
             gap: 1.25rem;
             color: white;
             margin-top: 1.875rem;
-            width: 50%;
+           
 
 
 
@@ -95,12 +97,12 @@ export default {
         }
 
         .logo_footer {
-            width: 50%;
-            overflow: hidden;
+            height: 100%;
             
 
             img {
-                
+                position: relative;
+                bottom: 5.625rem;
             }
         }
     }

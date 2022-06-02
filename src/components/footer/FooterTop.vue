@@ -3,6 +3,10 @@
          <div class="container">
             <ul>
                 <li>
+                    <img src="../../assets/img/buy-comics-digital-comics.png" alt="merchandise">
+                    <span>DIGITAL COMICS</span>
+                </li>
+                <li>
                     <img src="../../assets/img/buy-comics-merchandise.png" alt="merchandise">
                     <span>DC MERCHANDISE</span>
                 </li>
