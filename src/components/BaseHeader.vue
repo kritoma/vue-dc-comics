@@ -80,7 +80,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.875rem 0;
+    
     
     &__nav {
         ul {
@@ -93,7 +93,8 @@ export default {
                     text-decoration: none;
                     color: black;
                     font-weight: 700;
-                    padding: 2.5rem 0;
+                    padding: 4rem 0;
+                    display: inline-block;
                 }
             }
         }
@@ -102,6 +103,6 @@ export default {
 
 .active {
     color: var(--color-primary);
-    border-bottom: .1875rem solid var(--color-primary);
+    border-bottom: .25rem solid var(--color-primary);
 }
 </style>
