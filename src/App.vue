@@ -2,9 +2,11 @@
   <div id="app">
     <BaseHeader/>
     <BaseMain/>
-    <FooterTop/>
-    <FooterMiddle/>
-    <FooterBottom/>
+    <footer>
+      <FooterTop/>
+      <FooterMiddle/>
+      <FooterBottom/>
+    </footer>
   </div>
 </template>
 

@@ -95,14 +95,15 @@ export default {
                     font-weight: 700;
                     padding: 4rem 0;
                     display: inline-block;
+
+                    &.active {
+                        color: var(--color-primary);
+                        border-bottom: .25rem solid var(--color-primary);
+                    }
                 }
             }
         }
     }
 }
 
-.active {
-    color: var(--color-primary);
-    border-bottom: .25rem solid var(--color-primary);
-}
 </style>
